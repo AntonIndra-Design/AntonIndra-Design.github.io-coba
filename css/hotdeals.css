@@ -1,0 +1,139 @@
+.site-main .konten-ketujuh .text-judul {
+    text-align: left;
+    font-family: "OpenSans";
+    font-weight: bold;
+    font-size: 250%;
+    color: #434E5A;
+    padding-bottom: 1px;
+}
+
+.site-main .konten-ketujuh .text-judul::before {
+    content: "";
+    height: 2px;
+    width: 16vw;
+    background: #FFE4BA;
+    display: inline-block;
+    margin-right: 2%;
+    transform: translateY(-10px);
+}
+
+.site-main .konten-ketujuh .text-judul::after {
+    content: "";
+    height: 2px;
+    width: 16vw;
+    background: #FFE4BA;
+    display: inline-block;
+    margin-left: 2%;
+    transform: translateY(-10px);
+}
+
+.konten-ketujuh .hotdeals img{
+    width: 55%;
+    height: auto;
+    transition: transform .9s ease-in-out;
+}
+
+.konten-ketujuh .hotdeals img:hover{
+    transform: scale(1.06);
+}
+
+.konten-ketujuh .iconfree{
+    padding: 1rem 1rem 0 1rem;
+}
+
+.konten-ketujuh .iconfree img{
+    transition: transform .9s;
+}
+
+.konten-ketujuh .iconfree img:hover{
+    transform: scale(1.06);
+}
+
+.konten-ketujuh p{
+    font-family: "OpenSans";
+    width: 100%;
+    color: #434E5A;
+    font-size: 150%;
+}
+
+/* Countdown Start--------------------- */
+.konten-ketujuh li {
+  display: inline-block;
+  font-size: 1em;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.konten-ketujuh li span {
+  display: block;
+  font-size: 4rem;
+}
+
+.konten-ketujuh ul{
+    padding: 0;
+}
+
+.konten-ketujuh .text-countdown{
+    color: #434E5A;
+    width: 80%;
+}
+.konten-ketujuh .text-countdown li{
+    background-color: white;
+    padding-bottom: 1rem;
+    width: 120px;
+    height: auto;
+    margin: 1rem;
+    border-radius: 1rem;
+    border: 3px solid #FFE4BA;
+    box-shadow: 1px 1px 10px 5px rgb(239, 239, 239);
+}
+/* Countdown End--------------------- */
+
+/* Konten kedelapan Start--------------------- */
+.konten-kedelapan {
+    background-color: #FAF3D4;
+    font-family: 'OpenSans';
+    color: #434E5A;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.konten-kedelapan .coba{
+    padding: 2rem 0 2rem 0;
+}
+
+.konten-kedelapan a{
+    color: #434E5A;
+    text-decoration:none
+}
+
+.konten-kedelapan .shop p{
+    padding-right: 0.6rem;
+}
+
+.konten-kedelapan .smshop{
+    padding: 2rem 0 2rem 0;
+}
+
+.konten-kedelapan .shop{
+    padding: 0.9rem ;
+    border: 0.1rem solid #434E5A;
+}
+
+.konten-kedelapan .or{
+    padding-top: 0.7rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.konten-kedelapan .shop1{
+    padding-right: 1.5rem;
+}
+
+.konten-kedelapan .shopweb img{
+    padding-top: 0.3em;
+}
+
+.konten-kedelapan .ressmall{
+    display: none;
+}
+/* Konten kedelapan End--------------------- */

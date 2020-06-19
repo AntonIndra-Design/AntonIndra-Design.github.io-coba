@@ -1,0 +1,157 @@
+
+/*Carousel*/
+
+.carrousell {
+  background: #ffffff;
+  text-align: center;
+  padding: 4em 0;
+  height: auto;
+  max-width: 750px;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.carrousell h2 {
+  margin: 0;
+  margin-top: -1.7em;
+  padding: 0;
+  font-size: 1em;
+  text-align: center;
+  color: #bbbbbb;
+}
+
+.carrousell .slides {
+  width: 400%;
+  left: 0;
+  padding-left: 0;
+  padding-top: 1em;
+  overflow: hidden;
+  list-style: none;
+  position: relative;
+  -webkit-transition: transform .5s;
+  -moz-transition: transform .5s;
+  -o-transition: transform .5s;
+  transition: transform .5s;
+}
+
+.carrousell .slides li {
+  width: 25%;
+  position: relative;
+  float: left;
+}
+
+.carrousell li p {
+  margin-top: 0;
+  font-family: 'OpenSans';
+  color: #434E5A;
+}
+
+.carrousell li q {
+  max-width: 90%;
+  margin: auto;
+  color: #666666;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.carrousell li img {
+  width: 3em;
+  height: 3em;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-left: -1.5em;
+  margin-right: 0.5em;
+  vertical-align: middle;
+}
+
+.carrousell li span.author {
+  margin-top: 0.5em;
+  font-size: 1.2em;
+  font-style: italic;
+  color: #434E5A;
+  display: block;
+}
+
+.carrousell .slidesNavigation {
+  display: block;
+  list-style: none;
+  text-align: center;
+  bottom: 1em;
+  /*--- Centering trick---*/
+  /* Absolute positioning*/
+  position: absolute;
+  /* Abosulte positioning*/
+  width: 104px;
+  /*This width  is the addition of the width of all the navigations dots - So in this case is   104 because the navigation dots are 26px (width:10px and 6px marginleft + 6 px marginright) and there are 4 dots so 4x26=104 */
+  left: 50%;
+  /*Centering de element*/
+  margin-left: -52px;
+  /*adjusting the centering by applying a negative margin of half of the width*/
+}
+
+.carrousell input {
+  display: none;
+}
+
+.carrousell .slidesNavigation label {
+  float: left;
+  margin: 6px;
+  display: block;
+  height: 10px;
+  width: 10px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  border: solid 0.5px #434E5A;
+  font-size: 0;
+}
+
+/* You have to repeat this with each slide
+TODO: make it easier with SCSS
+25% movement 100/slides-num
+*/
+
+#radio-1:checked~.slides {
+  transform: translateX(0%);
+}
+
+#radio-2:checked~.slides {
+  transform: translateX(-25%);
+}
+
+#radio-3:checked~.slides {
+  transform: translateX(-50%);
+}
+
+#radio-4:checked~.slides {
+  transform: translateX(-75%);
+}
+
+.carrousell .slidesNavigation label:hover {
+  cursor: pointer;
+}
+
+/* You have to repeat this with each slide/dot */
+
+.carrousell #radio-1:checked~.slidesNavigation label#dotForRadio-1, .carrousell #radio-2:checked~.slidesNavigation label#dotForRadio-2, .carrousell #radio-3:checked~.slidesNavigation label#dotForRadio-3, .carrousell #radio-4:checked~.slidesNavigation label#dotForRadio-4 {
+  background: wheat;
+  border: #ffffff;
+}
+
+@media (max-width: 796px) {
+  .carrousell {
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .carrousell li p {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+  .carrousell li img {
+    width: 2em;
+    margin-left: -1em;
+    margin-right: 0.25em;
+  }
+}

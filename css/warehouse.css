@@ -1,0 +1,115 @@
+.konten-keenam{
+    background-color: #FAF3D4;
+}
+
+.site-main .konten-keenam .text-judul {
+    text-align: center;
+    font-family: "OpenSans";
+    font-weight: bold;
+    font-size: 250%;
+    color: #434E5A;
+    padding-bottom: 1px;
+}
+
+.site-main .konten-keenam .text-judul::after {
+    content: "";
+    height: 2px;
+    width: 16vw;
+    background: #FFE4BA;
+    display: inline-block;
+    margin-left: 2%;
+    transform: translateY(-10px);
+}
+
+.site-main .konten-keenam .text-judul::before {
+    content: "";
+    height: 2px;
+    width: 16vw;
+    background: #FFE4BA;
+    display: inline-block;
+    margin-right: 2%;
+    transform: translateY(-10px);
+}
+
+.carousel {
+	margin: 50px auto;
+	padding: 0 70px;
+}
+.carousel .item {
+	color: #747d89;
+	min-height: 325px;
+    text-align: center;
+	overflow: hidden;
+}
+.carousel .item .img-box img{
+	height: auto;
+	margin-top: 20px;
+	width: 90%;
+    position: relative;
+	border-radius: 10px;
+	text-align: center;
+	position: relative;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+.carousel .item img {	
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
+.carousel .item h4 {
+	font-size: 18px;
+}
+.carousel .item h4, .carousel .item p, .carousel .item ul {
+	margin-bottom: 5px;
+}
+.carousel .carousel-control {
+	height: 40px;
+	width: 40px;
+	background: transparent;
+    margin: auto 0;
+    border-radius: 4px;
+	opacity: 0.8;
+}
+.carousel .carousel-control:hover {
+	background: white;
+	opacity: 1;
+}
+.carousel .carousel-control i {
+    font-size: 36px;
+    position: absolute;
+    top: 25%;
+    display: inline-block;
+    margin: -19px 0 0 0;
+    z-index: 5;
+    left: 0;
+    right: 0;
+    color: black;
+	text-shadow: none;
+    font-weight: bold;
+}
+.carousel .carousel-control.left i {
+	margin-left: -2px;
+}
+.carousel .carousel-control.right i {
+	margin-right: -4px;
+}
+.carousel .carousel-indicators {
+	bottom: -50px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 10px;
+	height: 10px;
+	margin: 4px;
+	border-radius: 50%;
+	border: none;
+}
+.carousel-indicators li {
+    background-color: transparent;
+	border: solid 0.5px #434E5A;
+}
+.carousel-indicators li.active {	
+	background: wheat;
+}

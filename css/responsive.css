@@ -1,0 +1,412 @@
+@media only screen and (max-width: 1159px) {
+    .site-banner {
+        background-image: url(../images/bg-banner.jpg);
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .site-main .konten-pertama .images-video img {
+        width: 84%;
+    }
+    .site-main .site-jargon img {
+        width: 35%;
+    }
+    .site-main .site-banner .icon-kelebihan img {
+        width: 23%;
+    }
+    .konten-pertama .images-video {
+        padding-top: 5rem;
+    }
+    .konten-kedua .paragraph p {
+        width: 130%;
+    }
+    .konten-ketiga .spek {
+        width: auto;
+    }
+    .konten-kedua .padkon2 .img-duduk-foldy {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .konten-keenam .boxbutton {
+        height: 40px;
+        margin: 6rem 0 0px 0;
+    }
+    .site-main .konten-pertama .paragraph p {
+        width: 90%;
+        padding: 0rem 0 0 1rem;
+    }
+    .site-main .konten-pertama .text-judul {
+        padding: 5rem 0 0 1rem;
+    }
+    .konten-keenam .active {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 999px) {
+    /* Banner */
+    .site-title h1 {
+        font-size: 50px;
+        margin-left: 2.5rem;
+    }
+    .site-title h4 {
+        font-size: 40px;
+        margin-left: 2.5rem;
+    }
+    .site-main .site-title img {
+        padding: 0 1rem 0 2rem;
+        width: 120px;
+    }
+    .site-main .site-title .site-jargon {
+        padding: 2rem 0 0 5rem;
+    }
+    .banner-images img {
+        width: 90%;
+        height: auto;
+        padding: 7rem 0 0 0;
+    }
+    .icon-kelebihan img {
+        width: 25%;
+    }
+    .site-main .konten-pertama .images-video img {
+        width: 85%;
+    }
+    .site-main .konten-pertama .text-judul {
+        padding: 1.4rem 0 0 1rem;
+    }
+    .site-main .konten-pertama .paragraph p {
+        width: 95%;
+        font-size: 120%;
+        padding: 0.5rem 0 0 1rem;
+    }
+    .konten-kedua .padkon2 {
+        padding: 0 0 0 2.5rem;
+    }
+    .site-main .konten-kedua .paragraph {
+        width: 100%;
+        padding: 0.3rem 1.5rem 0 0;
+    }
+    .site-main .konten-kedua .img-duduk-foldy {
+        width: 110%;
+    }
+    .konten-ketiga .spek {
+        width: auto;
+        padding: 0 1rem 0 1rem;
+        margin-bottom: 1rem;
+        margin-left: 3rem;
+    }
+    .konten-ketiga .text-judul2 {
+        margin-left: 2rem;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .site-banner {
+        height: auto;
+        width: auto;
+    }
+    .site-banner .site-jargon .img-jargon {
+        justify-content: center;
+        padding-right: 6rem;
+    }
+    .site-title .title-text {
+        padding-left: 0;
+        padding-right: 1.5rem;
+        text-align: center;
+    }
+    .site-title h1 {
+        padding-left: 0;
+        padding-right: 1.5rem;
+    }
+    .site-banner .banner-images {
+        padding: 0;
+        height: auto;
+        width: auto;
+        margin: 0;
+    }
+    .banner-images img {
+        width: 70%;
+        height: auto;
+        padding: 3rem 0 0 0;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .site-main .konten-pertama .images-video img {
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+        height: auto;
+        padding: 0 0 2rem 0;
+    }
+    .site-main .konten-pertama .about-title {
+        text-align: center;
+    }
+    .konten-kedua .padkon2 {
+        text-align: center;
+        width: auto;
+    }
+    .konten-kedua .paragraph p {
+        width: auto;
+    }
+    .konten-kedua .img-duduk2-box {
+        width: 100%;
+        padding: 1rem 0 0 0;
+    }
+    .konten-kedua .img-duduk2 {
+        height: 510px;
+        background-image: url(../images/IMG3_636.JPG);
+        background-attachment: scroll;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .konten-ketujuh .iconfree {
+        padding: 1rem 13rem 0 5.1rem;
+    }
+
+    .konten-ketujuh .iconfree2 {
+        padding: 16px 0 0px 6rem;
+    }
+
+    .carousel {
+        margin: 50px auto;
+        padding: 27px 70px;
+        height: 216px;
+    }
+
+    .konten-ketujuh .text-countdown{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .konten-ketujuh .iconfree2 {
+        padding: 16px 0 0px 5rem;
+    }
+
+    footer .container {
+        font-size: small;
+    }
+
+    footer .container .last-icon{
+        height: 5%;
+        width: auto;
+    }
+
+    .konten-ketujuh .text-countdown{
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    .konten-ketujuh .iconfree {
+        padding: 16px 8.4rem 0px 0rem;
+    }
+
+    .konten-ketujuh .iconfree2 img {
+        padding: 0 0 0 8.6rem;
+    }
+
+    footer .foot1{
+        display: none;
+    }
+
+    footer .foot2{
+        display: block;
+    }
+
+}
+
+@media only screen and (max-width: 575px){
+    .carousel {
+        margin: 50px auto;
+        padding: 27px 70px;
+        height: 530px;
+    }
+
+    .project-area .container .s-575-cus{
+        width: 46%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+@media only screen and (max-width: 525px){
+
+    .konten-kedelapan .relarge{
+        display: none;
+    }
+
+    .konten-kedelapan .ressmall{
+        display: block;
+        padding: 1rem;
+    }
+
+    .konten-kedelapan .shop1{
+        padding: 1rem;
+    }
+
+    .konten-ketujuh .iconfree {
+        padding: 1rem 7.9rem 0 5.1rem;
+    }
+
+    .konten-ketujuh .iconfree img{
+        height: 80%;
+    }
+
+    .konten-ketujuh .iconfree2 {
+        padding: 1rem 7.9rem 0 8.1rem;
+    }
+
+    .konten-ketujuh .iconfree2 img {
+        padding: 0 0 0 0rem;
+    }
+    
+}
+
+@media only screen and (max-width: 375px) {
+    .konten-ketujuh .iconfree2 {
+        padding: 16px 0 0px 4.7rem;
+    }
+    .konten-ketujuh .iconfree1 {
+        padding: 1rem 4.3rem 0 0rem;
+    }
+    .site-main .site-title .site-jargon {
+        padding: 1rem 0 0 0;
+    }
+    .site-banner .site-jargon .img-jargon {
+        justify-content: center;
+        padding-right: 16px;
+    }
+    .site-main .site-banner .icon-kelebihan img {
+        width: 47%;
+        margin: 0 auto;
+        display: block;
+        padding: 2rem 1rem 1rem 1rem;
+    }
+
+    .banner-images img {
+        width: 70%;
+        height: auto;
+        padding: 3rem 0 0 0;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .site-title h1 {
+        margin-left: 2rem;
+        padding: 4rem 0 0 0;
+        font-family: "LemonMilk";
+        font-size: 50px;
+        color: #434E5A;
+    }
+
+    .konten-pertama .images-video {
+        padding-top: 0rem;
+    }
+
+    .konten-kedua .padkon2 {
+        padding: 0;
+    }
+
+    .site-main .konten-kedua .paragraph {
+        width: 100%;
+        padding: 0rem 4px 0 4px;
+    }
+
+    .konten-kedua .img-duduk2 {
+        height: 381px;
+    }
+
+    .site-main .konten-pertama .container2 {
+        padding: 3rem 0 0rem 0;
+    }
+
+    .site-main .konten-ketiga .text-judul::before {
+        content: "";
+        height: 2px;
+        width: 10vw;
+        background: #FFE4BA;
+        display: inline-block;
+        margin-right: 2%;
+        transform: translateY(-10px);
+    }
+
+    .site-main .konten-ketiga .text-judul::after {
+        content: "";
+        height: 2px;
+        width: 10vw;
+        background: #FFE4BA;
+        display: inline-block;
+        margin-left: 2%;
+        transform: translateY(-10px);
+    }
+
+    .site-main .project-area .text-judul::before {
+        content: "";
+        height: 2px;
+        width: 10vw;
+        background: #FFE4BA;
+        display: inline-block;
+        margin-right: 2%;
+        transform: translateY(-10px);
+    }
+
+    .site-main .project-area .text-judul::after {
+        content: "";
+        height: 2px;
+        width: 10vw;
+        background: #FFE4BA;
+        display: inline-block;
+        margin-left: 2%;
+        transform: translateY(-10px);
+    }
+
+    .konten-ketujuh li {
+        display: inline-block;
+        font-size: 1em;
+        list-style-type: none;
+        padding: 0px 0em 0em 0em;
+        margin-right: 2rem;
+        text-transform: uppercase;
+    }
+
+    .site-main .project-area .button-group button + button {
+        padding-left: 1rem;
+    }
+
+    .site-main .konten-kelima .text-judul {
+        font-family: "OpenSans";
+        font-weight: bold;
+        font-size: 227%;
+        color: #434E5A;
+    }
+
+    .site-main .konten-keenam .text-judul {
+        font-size: 208%;
+    }
+
+    .carousel {
+        margin: 7px auto;
+        padding: 27px 70px;
+        height: 316px;
+        padding-bottom: 2rem;
+    }
+
+    .carrousell li img {
+        width: 3em;
+    }
+
+    .konten-ketujuh .text-countdown li {
+        width: 97px;
+        font-size: 13px;
+        height: auto;
+    }
+}

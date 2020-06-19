@@ -1,0 +1,9 @@
+
+
+.transisi{
+    transition: transform .9s;
+}
+
+.transisi:hover{
+    transform: scale(1.06);
+}

@@ -1,0 +1,431 @@
+/* import font from font.css file */
+
+@import url(font.css);
+@import url(_global.css);
+/* Nav-Brand // logo navigation */
+
+.header_area{
+    background-color: white;
+}
+
+.header_area .navbar-brand img{
+    vertical-align: middle;
+    height: 38px;
+    width: auto;
+}
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 0rem;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font: normal 500 15px/2px 'OpenSans', cursive;
+    text-transform: uppercase;
+    padding: 1rem;
+    color: #434E5A;
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: #d0b9a0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: wheat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* end navigation */
+
+/* Start Banner */
+
+.site-banner {
+    background-image: url(../images/bg-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.banner-images img {
+    width: 90%;
+    height: auto;
+    padding: 7rem 0 0 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon-kelebihan img {
+    width: 20%;
+    margin: 0 auto;
+    display: block;
+    padding: 5rem 1rem 5rem 1rem;
+    transition: transform 1s;
+}
+
+.icon-kelebihan img:hover {
+    opacity: 90%;
+    transform: scale(1.1);
+}
+
+.site-main .site-title img {
+    padding: 0 1rem 0 2rem;
+    width: 140px;
+}
+
+.site-main .site-title .site-jargon {
+    padding: 2rem 0 0 5rem;
+}
+
+.site-title h1 {
+    margin-left: 2rem;
+    padding: 7rem 0 0 0;
+    font-family: "LemonMilk";
+    font-size: 50px;
+    color: #434E5A;
+}
+
+.site-title h4 {
+    margin-left: 2rem;
+    font-family: "DolceVita";
+    font-size: 40px;
+    letter-spacing: 0.5rem;
+    color: #434E5A;
+}
+
+/* End Main */
+
+/* Konten Pertama -----------------------------------------------*/
+#headerPopup{
+  width:75%;
+  margin:0 auto;
+}
+
+#headerPopup iframe{
+  width:100%;
+  margin:0 auto;
+}
+#igPopup1{
+  width:75%;
+  margin:0 auto;
+}
+
+#igPopup1 iframe{
+  width:100%;
+  margin:0 auto;
+}
+.site-main .konten-pertama .container2 {
+    padding: 3rem 0 5rem 0;
+}
+
+.site-main .konten-pertama .images-video img {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    height: auto;
+    padding: 5rem 0 0 0;
+    transition: transform 1s;
+}
+
+.site-main .konten-pertama .images-video img:hover {
+    /* box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205); */
+    transform: scale(1.05);
+}
+
+.site-main .konten-pertama .text-judul {
+    font-family: "OpenSans";
+    font-weight: bold;
+    font-size: 250%;
+    color: #434E5A;
+    padding: 5rem 0 0 3rem;
+}
+
+.site-main .konten-pertama .paragraph p {
+    font-family: "OpenSans";
+    width: 100%;
+    color: #434E5A;
+    font-size: 130%;
+    padding: 0.5rem 0 0 3rem;
+}
+
+/* End Konten Pertama */
+
+/* Konten Kedua -----------------------------------------------*/
+
+.site-main .konten-kedua {
+    width: 100%;
+    height: 100%;
+    background-color: #FAF3D4;
+}
+
+.site-main .konten-kedua .img-duduk-foldy {
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/IMG3_636.JPG');
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.site-main .konten-kedua .text-judul {
+    font-family: "OpenSans";
+    font-weight: bold;
+    font-size: 250%;
+    color: #434E5A;
+    padding: 4rem 0 0 0;
+}
+
+.site-main .konten-kedua .text-judul2 {
+    font-family: "OpenSans";
+    width: 100%;
+    color: #434E5A;
+    font-size: 180%;
+    padding: 0.5rem 0 0 0;
+}
+
+.site-main .konten-kedua .paragraph {
+    font-family: "OpenSans";
+    width: 100%;
+    color: #434E5A;
+    font-size: 130%;
+    padding: 0.5rem 8rem 0 0;
+}
+
+/* End Konten Kedua */
+
+/* Konten Ketiga -----------------------------------------------*/
+
+.site-main .konten-ketiga {
+    width: 100%;
+    margin-top: 6rem;
+}
+
+.site-main .konten-ketiga .text-judul {
+    font-family: "OpenSans";
+    font-weight: bold;
+    font-size: 250%;
+    color: #434E5A;
+}
+
+.site-main .konten-ketiga .text-judul::before {
+    content: "";
+    height: 2px;
+    width: 16vw;
+    background: #FFE4BA;
+    display: inline-block;
+    margin-right: 2%;
+    transform: translateY(-10px);
+}
+
+.site-main .konten-ketiga .text-judul::after {
+    content: "";
+    height: 2px;
+    width: 16vw;
+    background: #FFE4BA;
+    display: inline-block;
+    margin-left: 2%;
+    transform: translateY(-10px);
+}
+
+.konten-ketiga .text-judul2 h2 {
+    font-family: "OpenSans";
+    font-weight: 600;
+    width: 100%;
+    color: #434E5A;
+    font-size: 180%;
+    padding-bottom: 1rem;
+}
+
+.konten-ketiga .spek {
+    border-radius: .5em;
+    /* border: 1px solid #FFE4BA; */
+    width: 23%;
+    padding: 2.5px;
+    margin: 0 1rem 0 0;
+    display: flex;
+    align-items: center;
+    background-color: #fefbf6;
+    transition: transform .6s ease-in;
+}
+
+.konten-ketiga .spek:hover {
+    box-shadow: 0px 0px 30px rgba(34, 25, 73, 0.105);
+    transform: scale(1.05);
+    background-color: white;
+}
+
+.konten-ketiga .spek .item-spek {
+    padding: 0.8rem;
+}
+
+.spacer3 {
+    height: 3rem;
+}
+
+/* End Konten Ketiga */
+
+/* Konten Keempat -----------------------------------------------*/
+
+.project-area {
+    padding: 3rem 0 1rem 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FAF3D4;
+}
+
+.site-main .project-area .text-judul {
+    font-family: "OpenSans";
+    font-weight: bold;
+    font-size: 250%;
+    color: #434E5A;
+}
+
+.site-main .project-area .text-judul::before {
+    content: "";
+    height: 2px;
+    width: 16vw;
+    background: #FFE4BA;
+    display: inline-block;
+    margin-right: 2%;
+    transform: translateY(-10px);
+}
+
+.site-main .project-area .text-judul::after {
+    content: "";
+    height: 2px;
+    width: 16vw;
+    background: #FFE4BA;
+    display: inline-block;
+    margin-left: 2%;
+    transform: translateY(-10px);
+}
+
+.project-area .button-group button{
+    background: transparent;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 120%;
+    border: none;
+    font-family: "OpenSans";
+    color: #434E5A;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+}
+
+.spacer1 {
+    height: 0.8rem;
+}
+
+.spacer2 {
+    height: 2rem;
+}
+
+.project-area .grid img{
+    border-radius: 1em;
+;
+}
+
+.site-main .project-area .button-group button + button{
+    padding-left: 3rem;
+}
+
+.site-main .project-area .grid .our-project .img a:hover img{
+    filter: brightness(1.1);
+}
+/* End Keempat */
+/* Konten Kelima -----------------------------------------------*/
+.site-main .konten-kelima .text-judul {
+    font-family: "OpenSans";
+    font-weight: bold;
+    font-size: 250%;
+    color: #434E5A;
+}
+
+.site-main .konten-kelima .text-judul::before {
+    content: "";
+    height: 2px;
+    width: 16vw;
+    background: #FFE4BA;
+    display: inline-block;
+    margin-right: 2%;
+    transform: translateY(-10px);
+}
+
+.site-main .konten-kelima .text-judul::after {
+    content: "";
+    height: 2px;
+    width: 16vw;
+    background: #FFE4BA;
+    display: inline-block;
+    margin-left: 2%;
+    transform: translateY(-10px);
+}
+
+/* End Kelima */
+
+/* Konten Kesembilan -----------------------------------------------*/
+
+.site-main .konten-kesembilan h4{
+    font-family: "OpenSans";
+    font-weight: bold;
+    font-size: 180%;
+    color: #434E5A;
+}
+
+.konten-kesembilan .icon-logo img{
+    height: auto;
+    width: 20%;
+    transform: translateX(-6px);
+}
+
+.konten-kesembilan .icon-loc p{
+    transform: translateY(10px);
+}
+
+.konten-kesembilan .icon-loc img{
+    height: auto;
+    width: 95%;
+    padding-right: 0.5rem;
+}
+
+.konten-kesembilan .icon-contact img{
+    padding: 0.5rem 2rem 0 2rem;
+    width: 100%;
+    height: auto;
+}
+
+.site-main .konten-kesembilan .line {
+    content: "";
+    height: 20vw;
+    width: 2px;
+    background: #FFE4BA;
+    display: inline-block;
+    margin-left: 3.9rem;
+    transform: translateY(20px);
+}
+
+.konten-kesembilan .textbox-sendemail{
+    padding-left: 3rem;
+}
+
+/* End Kedelapan */
+
+footer{
+    background-color: #FFE2B4;
+    padding-top: 1rem;
+    color: #434E5A;
+}
+
+.last .icon-last img{
+    width: 60%;
+    transform: translateY(-7px);
+}
+
+footer .foot2{
+    display: none;
+}
